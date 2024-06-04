@@ -123,3 +123,58 @@ button {
     font-size: 18px;
     color: #E5E7Eb;
 }
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10% 10px 10%;
+    gap:60px;
+    flex-wrap: wrap;
+
+}
+
+.info-section .main {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    
+}
+.subtext{
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   
+    
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.sections .image {
+    height: 100px;
+    width: 100px;
+    border-color: #3882f6;
+    border-style: solid;
+    background: white;
+    border-radius: 10px;
+    border-width: 3px;
+    
+
+}
+
+.text {
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    max-width: 150px;
+}
